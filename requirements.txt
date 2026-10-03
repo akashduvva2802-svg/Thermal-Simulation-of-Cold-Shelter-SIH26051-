@@ -1,0 +1,9 @@
+ansys-fluent-core>=0.42.0
+pandas
+numpy
+matplotlib
+plotly
+streamlit
+gmsh
+h5py
+Pillow

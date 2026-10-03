@@ -1,0 +1,17 @@
+
+/file/read-case "D:/Trial1_hemisphere_files/dp0/FFF-1/Fluent/FFF-1.msh.h5"
+/define/models/energy? yes
+ 
+ 
+ 
+ 
+/define/models/viscous/kw-sst? yes
+ 
+ 
+/define/models/radiation/s2s? yes
+ 
+ 
+ 
+ 
+/exit
+
