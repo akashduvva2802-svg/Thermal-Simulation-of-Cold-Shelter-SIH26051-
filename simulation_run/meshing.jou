@@ -1,0 +1,6 @@
+
+/file/import/cad "yes" "c:/Users/Student-PC-2/Akash/Pretreatment/dome_thermal_sim/simulation_run/dome_geometry.stl" "yes" "m" "yes"
+/mesh/surface-mesh/create "yes" "*" "0.5" "0.05"
+/mesh/auto-mesh "*" "yes" "poly-hexcore" "yes"
+/file/write-mesh "c:/Users/Student-PC-2/Akash/Pretreatment/dome_thermal_sim/simulation_run/dome_mesh.msh.h5"
+/exit

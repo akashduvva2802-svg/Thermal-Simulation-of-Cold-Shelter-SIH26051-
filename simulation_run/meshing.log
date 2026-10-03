@@ -1,0 +1,79 @@
+
+Opening input/output transcript to file "C:\Users\Student-PC-2\Akash\Pretreatment\dome_thermal_sim\\fluent-20260929-192013-1684.trn".
+Auto-Transcript Start Time:  19:20:13, 29 Sep 2026 India Standard Time 
+
+              Welcome to ANSYS Fluent 2026 R1
+
+              Copyright 2026 Synopsys, Inc. and ANSYS, Inc. All rights reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: Feb  2 2026 16:32:00 EST  Build Id: 10262  
+ 
+Connected License Server List:	<Non FlexNet Publisher License Server (FNPLS)>
+
+     --------------------------------------------------------------
+     This is a student version of ANSYS FLUENT. Usage of this product
+     license is limited to the terms and conditions specified in your ANSYS
+     license form, additional terms section.
+     --------------------------------------------------------------
+Host spawning Node 0 on machine "DESKTOP-BD6PBCQ" (win64).
+Host waiting for connection from Node 0 at 127.0.0.1:65353 
+
+Node 0 connecting to the Host ... connection established.
+
+-----------------------------------------------------------------------------------------
+ID    Hostname         Core  O.S.         PID    CPU Model Name                         
+-----------------------------------------------------------------------------------------
+n1    DESKTOP-BD6PBCQ  2/24  Windows-x64  5296   13th Gen Intel(R) Core(TM) i7-13700    
+n0*   DESKTOP-BD6PBCQ  1/24  Windows-x64  10428  13th Gen Intel(R) Core(TM) i7-13700    
+host  DESKTOP-BD6PBCQ        Windows-x64  9892   13th Gen Intel(R) Core(TM) i7-13700    
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-----------------------------------------------------------------------------------------
+
+Cleanup script file is C:\\Users\\Student-PC-2\\Akash\\Pretreatment\\dome_thermal_sim\\cleanup-fluent-DESKTOP-BD6PBCQ-9892.bat
+Note: Rank = 0: Process affinity not being set (6).
+Note: Rank = 1: Process affinity not being set (6).
+
+Graphics driver currently in use: dx11
+
+ +------------------------------------------------------------------+
+ |                    ANSYS Product Improvement                     |
+ |                                                                  |
+ |   ANSYS Product Improvement Program helps improve ANSYS          |
+ |   products. Participating in this program is like filling out a  |
+ |   survey. Without interrupting your work, the software reports   |
+ |   anonymous usage information such as errors, machine and        |
+ |   solver statistics, features used, etc. to ANSYS. We never      |
+ |   use the data to identify or contact you.                       |
+ |   The data does NOT contain:                                     |
+ |   - Any personally identifiable information including names,     |
+ |     IP addresses, file names, part names, etc.                   |
+ |   - Any information about your geometry or design specific       |
+ |     inputs.                                                      |
+ |   You can stop participation at any time. To change your         |
+ |   selection go to Help >> ANSYS Product Improvement Program      |
+ |   in the GUI.                                                    |
+ |   For more information about the ANSYS Privacy Policy, please    |
+ |   check: http://www.ansys.com/privacy                            |
+ |                                                                  |
+ +------------------------------------------------------------------+
+
+Posting ANSYS Product Improvement Program startup data
+Done.
+
+Reading journal file c:\Users\Student-PC-2\Akash\Pretreatment\dome_thermal_sim\simulation_run\meshing.jou...
+
+> 
+/file/import/cad 
+Error: Invalid real.
+Error Object: "m"
+"yes" "c:/Users/Student-PC-2/Akash/Pretreatment/dome_thermal_sim/simulation_run/dome_geometry.stl" "yes" "m"
+Warning: An error or interrupt occurred while reading the journal file.
+Some commands may not have been completed.
+
+
+Meshing> 

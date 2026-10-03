@@ -1,0 +1,9 @@
+
+/file/read-case "D:/Trial1_hemisphere_files/dp0/FFF-1/Fluent/FFF-1-Setup-Output.cas.h5"
+
+/solve/set/time-step 3600.0
+/solve/dual-time-iterate 24 20
+
+/file/write-case-data "c:/Users/Student-PC-2/Akash/Pretreatment/dome_thermal_sim/simulation_final/dome_solved.cas.h5"
+/exit
+yes

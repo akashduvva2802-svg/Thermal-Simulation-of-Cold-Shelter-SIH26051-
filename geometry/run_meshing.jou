@@ -1,0 +1,22 @@
+; run_meshing.jou
+; Meshing journal for dome thermal simulation using Watertight Geometry workflow
+/water-tight-geometry/setup/geometry
+/water-tight-geometry/setup/import-geometry "yes" "C:/Users/Student-PC-2/Akash/Pretreatment/dome_thermal_sim/geometry/generated/dome_assembly.stl" "yes" "m" "yes"
+
+/water-tight-geometry/setup/add-local-sizing "no"
+
+/water-tight-geometry/setup/generate-surface-mesh "yes" "0.5" "0.1"
+
+/water-tight-geometry/setup/describe-geometry "The geometry consists of both fluid and solid regions and/or voids" "no" "no"
+
+/water-tight-geometry/setup/update-boundaries "ground_inside" "ground_outside" "dome_surf" "sky" "east" "west" "north" "south" "wall" "wall" "wall" "symmetry" "pressure-outlet" "velocity-inlet" "pressure-outlet" "velocity-inlet"
+
+/water-tight-geometry/setup/create-regions "2"
+/water-tight-geometry/setup/update-regions "fluid" "fluid" "solid"
+
+/water-tight-geometry/setup/add-boundary-layers "no"
+
+/water-tight-geometry/setup/generate-volume-mesh "yes" "poly-hexcore" "0.5"
+
+/file/write-mesh "C:/Users/Student-PC-2/Akash/Pretreatment/dome_thermal_sim/geometry/generated/final_mesh.msh.h5"
+/exit
