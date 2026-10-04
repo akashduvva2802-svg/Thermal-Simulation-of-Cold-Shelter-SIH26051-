@@ -1,4 +1,4 @@
-# ThermaCore: Automated Software Model for On-Demand PCM Shelter Design
+# Automated Software Model for On-Demand PCM Shelter Design
 
 ![SIH2026](https://img.shields.io/badge/Smart_India_Hackathon-SIH26051-orange?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge)
@@ -11,7 +11,7 @@
 ---
 
 ## 📖 Project Overview
-Designing thermal shelters for extreme, high-altitude climates like Ladakh currently relies on manual, expert-driven CFD modeling or highly inefficient sensible heat structures. **ThermaCore** is a full-stack, AI-integrated software model that completely automates the design, simulation, and business analysis of area-specific passive shelters. 
+Designing thermal shelters for extreme, high-altitude climates like Ladakh currently relies on manual, expert-driven CFD modeling or highly inefficient sensible heat structures. Our team developed a full-stack, AI-integrated software model that completely automates the design, simulation, and business analysis of area-specific passive shelters. 
 
 Our application abstracts the complexity of computational fluid dynamics (CFD) by utilizing an **Ansys PyFluent backend** wrapped in a **Streamlit web interface**. It parametrically optimizes Phase Change Material (PCM) deployment, geometric shapes, and optical properties to ensure a zero-fossil-fuel, self-sustaining thermal environment.
 
@@ -73,7 +73,7 @@ dome_thermal_sim/
    ```bash
    pip install -r requirements.txt
    ```
-3. Launch the ThermaCore application:
+3. Launch the application:
    ```bash
    streamlit run app.py
    ```
